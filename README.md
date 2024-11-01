@@ -4,54 +4,54 @@
     PyAsync Enterprise Framework is a robust, scalable asynchronous application framework designed for building high-performance, maintainable Python applications. It combines modern Python features with enterprise-grade patterns and practices to provide a comprehensive solution for building resilient distributed systems.
 
 - Key Features
-    - 1. Asynchronous Operations
-        -   Built on Python's asyncio for non-blocking I/O operations
-        -   Efficient handling of concurrent tasks and operations
-        -   Support for both async and sync function integration
+    -   1. Asynchronous Operations
+            -   Built on Python's asyncio for non-blocking I/O operations
+            -   Efficient handling of concurrent tasks and operations
+            -   Support for both async and sync function integration
 
-    - 2. Enterprise Design Patterns
-        -   Circuit Breaker Pattern: Prevents cascading failures in distributed systems
-            -   Configurable failure thresholds and reset timeouts
-            -   Three states: CLOSED, OPEN, and HALF-OPEN
-            -   Automatic failure detection and recovery
+    -   2. Enterprise Design Patterns
+            -   Circuit Breaker Pattern: Prevents cascading failures in distributed systems
+                -   Configurable failure thresholds and reset timeouts
+                -   Three states: CLOSED, OPEN, and HALF-OPEN
+                -   Automatic failure detection and recovery
 
-        -   Observable Pattern: Advanced event handling and monitoring
-            -   Thread-safe event propagation
-            -   Event history tracking
-            -   Asynchronous observer notifications
-            -   Configurable event retention
+            -   Observable Pattern: Advanced event handling and monitoring
+                -   Thread-safe event propagation
+                -   Event history tracking
+                -   Asynchronous observer notifications
+                -   Configurable event retention
 
-        -   Resource Management: Efficient resource handling
-            -   Thread pool management
-            -   Resource limiting and cleanup
-            -   Automatic resource disposal
-            -   Configurable pool sizes
+            -   Resource Management: Efficient resource handling
+                -   Thread pool management
+                -   Resource limiting and cleanup
+                -   Automatic resource disposal
+                -   Configurable pool sizes
 
-    - 3. Performance Optimization
-        -   Memoization System: Smart caching implementation
-            -   Time-based cache invalidation (TTL)
-            -   Size-limited cache with LRU eviction
-            -   Thread-safe operations
-            -   Memory leak prevention
+    -   3. Performance Optimization
+            -   Memoization System: Smart caching implementation
+                -   Time-based cache invalidation (TTL)
+                -   Size-limited cache with LRU eviction
+                -   Thread-safe operations
+                -   Memory leak prevention
 
-    - 4. Monitoring and Metrics
-        -   Comprehensive Metric Collection:
-            -   Performance tracking
-            -   Error rate monitoring
-            -   Resource usage statistics
-            -   Custom metric support
+    -   4. Monitoring and Metrics
+            -   Comprehensive Metric Collection:
+                -   Performance tracking
+                -   Error rate monitoring
+                -   Resource usage statistics
+                -   Custom metric support
 
-        -   System Analysis:
-            -   Method-level performance tracking
-            -   Error tracking and logging
-            -   Automated performance reporting
+            -   System Analysis:
+                -   Method-level performance tracking
+                -   Error tracking and logging
+                -   Automated performance reporting
 
-    - 5. Task Management
-        -   Context Management:
-            -   Automatic resource cleanup
-            -   Error handling and logging
-            -   Retry mechanisms with exponential backoff
-            -   Timeout management
+    -   5. Task Management
+            -   Context Management:
+                -   Automatic resource cleanup
+                -   Error handling and logging
+                -   Retry mechanisms with exponential backoff
+                -   Timeout management
 
 # Usage Examples
 
